@@ -30,7 +30,7 @@
 				<?php foreach ($list as $l){?>
 					<div class="media all nature">
 						<a href="<?php echo $this->config->item("base_url")."picture/detail/".$l['id']; ?>">
-							<img src="<?php echo substr($l["url"],strpos($l["url"],'.')+1);?>" alt="" title="This right here is a caption."/>
+							<img src="/<?php echo $l["url"];?>" alt="" title="This right here is a caption."/>
 						</a>
 					</div>
 				<?php } ?>

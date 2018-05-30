@@ -21,7 +21,7 @@
 			<section class="columns double">
 				<?php foreach ($list as $l){?>
 					<div class="column">
-						<span class="image left special"><img src="<?php echo substr($l["url"],strpos($l["url"],'.')+1);?>" alt=""/></span>
+						<span class="image left special"><img src="/<?php echo $l["url"];?>" alt=""/></span>
 
 						<h3><?php echo $l["name"]?></h3>
 						<p>
