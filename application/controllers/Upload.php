@@ -12,7 +12,8 @@ class Upload extends CI_Controller {
 		parent::__construct();
 		$this->file_size = FILE_UPLOAD_SIZE;
 		$this->not_allowed = array('jpg','jpeg','png','gif','svg');//允许上传文件类型
-		$this->filedir = "./data/picture/";
+//		$this->filedir = "./data/picture/";
+		$this->filedir = "data/picture/";
 		$this->load->database();
 		$this->load->library('session');
 	}
