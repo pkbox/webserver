@@ -18,7 +18,7 @@
 				<div class="media">
 					<a href="<?php echo substr($list["url"], strpos($list["url"], '.') + 1); ?>">
 						<span class="image left special"><img
-								src="<?php echo substr($list["url"], strpos($list["url"], '.') + 1); ?>"/></a></span>
+								src="/<?php echo $l["url"];?>"/></a></span>
 
 				</div>
 
