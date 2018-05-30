@@ -2,15 +2,12 @@
 <html>
 <?php $this->load->view("header.php"); ?>
 
-<!-- Main -->
+
 <section id="main">
 
-	<!-- Header -->
 	<header id="header">
 		<div>Design <span>FOR CSSE7202 PROJECT</span></div>
 	</header>
-
-	<!-- Section -->
 	<section>
 		<div class="inner">
 			<header>
@@ -21,8 +18,8 @@
 					<form enctype="multipart/form-data" method="post" name="upform" id="upload" action="/index.php/upload/do_upload">
 						<labal for="upload-pic">Upload picture<label>
 								<input name="file" type="file"><br>
-								名称<input type="text" value="" name="name" id="name" required="required">
-								标签<input type="text" value="" name="tagname" id = "tagname" required="required">
+								Name:<input type="text" value="" name="name" id="name" required="required">
+								Tag:<input type="text" value="" name="tagname" id = "tagname" required="required">
 								<input type="submit" value="SUBMIT" id="submit"><br>
 					</form>
 				</div>
@@ -30,19 +27,16 @@
 		</div>
 	</section>
 
-	<!-- Contact -->
 	<?php $this->load->view("contact.php"); ?>
 
-	<!-- Footer -->
 	<footer id="footer">
 		<div class="copyright">
-			&copy; INFO 7202 Design: <a href="my.uq"></a>. GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO,LI</a>.
+			&copy; INFS 7202 Design: <a href="my.uq"></a>. GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO.LI</a>.
 		</div>
 	</footer>
 </section>
 </div>
 
-<!-- Scripts -->
 <?php $this->load->view("footer.php"); ?>
 
 </body>

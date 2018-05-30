@@ -1,22 +1,18 @@
 <!DOCTYPE HTML>
-<!--
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 
 <?php $this->load->view("header.php");?>
 
-	<!-- Main -->
+
 	<section id="main">
 
-		<!-- Header -->
+
 		<header id="header">
-			<div>Snapshot <span>by TEMPLATED</span></div>
+			<div>Zimage <span>Design for INFS7202</span></div>
 		</header>
 
-		<!-- Section -->
+
 		<section>
 			<div class="inner">
 				<header>
@@ -75,7 +71,7 @@
 
 		<?php $this->load->view("contact.php");?>
 
-		<!-- Footer -->
+
 		<footer id="footer">
 			<div class="copyright">
 				&copy; INFO 7202 Design: <a href="my.uq"></a>. GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO,LI</a>.
@@ -84,7 +80,7 @@
 	</section>
 </div>
 
-<!-- Scripts -->
+
 <?php $this->load->view("footer.php");?>
 
 </body>

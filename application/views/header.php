@@ -1,6 +1,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Zimage</title>
+	<link rel="shortcut icon" type="image/png" href="/public/images/icon.png">
 	<link rel="stylesheet" href="/public/assets/css/main.css" />
 	<script src="/public/assets/js/jquery.min.js"></script>
 	<script src="/public/assets/js/jquery.min.js"></script>
@@ -9,11 +11,12 @@
 	<script src="/public/assets/js/skel.min.js"></script>
 	<script src="/public/assets/js/util.js"></script>
 	<script src="/public/assets/js/main.js"></script>
+
 </head>
 <body>
 <div class="page-wrap">
 
-	<!-- Nav -->
+
 	<nav id="nav">
 		<ul>
 			<li><a href="<?php echo $this->config->item("base_url"); ?>usercontroller/personal" class="">

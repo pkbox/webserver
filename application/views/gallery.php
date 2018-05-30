@@ -3,21 +3,19 @@
 
 <?php $this->load->view("header.php"); ?>
 
-<!-- Main -->
+
 <section id="main">
 
-	<!-- Header -->
+
 	<header id="header">
-		<div>Zimage <span> INFO 7202 PROJECT</span></div>
+		<div>Zimage <span>Design for INFS7202</span></div>
 	</header>
 
-	<!-- Gallery -->
+
 	<section id="galleries">
 
-		<!-- Photo Galleries -->
 		<div class="gallery">
 
-			<!-- Filters -->
 			<header>
 				<h1>Gallery</h1>
 				<ul class="tabs">
@@ -40,10 +38,9 @@
 		</div>
 	</section>
 
-	<!-- Contact -->
+
 	<?php $this->load->view("contact.php"); ?>
 
-	<!-- Footer -->
 	<footer id="footer">
 		<div class="copyright">
 			&copy; INFO 7202 Design: <a href="my.uq"></a>. GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO,LI</a>.
@@ -52,7 +49,6 @@
 </section>
 </div>
 
-<!-- Scripts -->
 <?php $this->load->view("header.php"); ?>
 
 </body>

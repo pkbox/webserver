@@ -3,8 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Login</title>
+	<title>Register - Zimage</title>
 	<link rel="stylesheet" href="/public/assets/css/loginstyle.css"/>
+	<link rel="shortcut icon" type="image/png" href="/public/images/icon.png">
 	<script src="/public/assets/js/jquery.min.js"></script>
 </head>
 
@@ -32,7 +33,7 @@
 
 <script>
 	$(document).ready(function () {
-		//注册
+
 		$(".submit").click(function () {
 			var username = $("#username").val();
 			var password = $("#password").val();

@@ -3,10 +3,9 @@
 <html>
 <?php $this->load->view("header.php");?>
 
-			<!-- Main -->
+
 				<section id="main">
 
-					<!-- Banner -->
 						<section id="banner">
 							<div class="inner">
 								<h1>Zimage</h1>
@@ -17,7 +16,7 @@
 							</div>
 						</section>
 
-						<!-- Search bar-->
+
 				<form method="get" id="searchform" action="/index.php/home/home/search" >
 					<fieldset class="search">
 						<input type="hidden" name="search" value="search">
@@ -26,10 +25,8 @@
 					</fieldset>
 				</form>
 
-					<!-- Gallery -->
 						<section id="galleries">
 
-							<!-- Photo Galleries -->
 								<div class="gallery">
 									<header class="special">
 										<h2>What's New</h2>
@@ -49,10 +46,10 @@
 								</div>
 						</section>
 
-					<!-- Contact -->
+
 					<?php $this->load->view("contact.php");?>
 
-					<!-- Footer -->
+
 						<footer id="footer">
 							<div class="copyright">
 								&copy; INFO 7202 Design: <a href="my.uq"></a>. GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO,LI</a>.
@@ -61,6 +58,6 @@
 				</section>
 		</div>
 
-		<!-- Scripts -->
+
 	</body>
 </html>

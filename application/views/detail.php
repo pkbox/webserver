@@ -1,14 +1,13 @@
 <html>
 <?php $this->load->view("header.php"); ?>
-<!-- Main -->
+
 <section id="main">
 
-	<!-- Header -->
 	<header id="header">
 		<div>Design for INFS7202</div>
 	</header>
 
-	<!-- Section -->
+
 	<section>
 		<div class="inner">
 			<header>
@@ -28,11 +27,9 @@
 
 	</section>
 
-	<!-- Contact -->
+
 	<section id="contact">
 
-		<!-- Social -->
-		<!-- Form -->
 		<div class="column">
 			<p>Author: <?php echo $list["author"] ?><br> Upload Date: <?php echo date("d/m/Y", $list["date"]); ?><br>Category: <?php echo $list["tagname"] ?>
 				<br></p>
@@ -53,10 +50,10 @@
 				Website or rely on the information provided by this Website or its accompanying instructions or
 				documents.</p>
 			<h4>If you want to learn more about the disclaimer, please download the file.</h4>
-			<a href="<?php echo $this->config->item("base_url"); ?>home/get_pdf"><input type="button" value="Download!"></a>
+			<a href=" <?php echo $this->config->item("base_url"); ?>home/get_pdf"><input type="button" value="Download!"></a>
 		</div>
 	</section>
-	<!-- Footer -->
+
 	<footer id="footer">
 		<div class="copyright">
 			&copy; INFS7202 Zimage: <a href="my.uq"></a> GROUP: <a href="*">WEI.ZHOU XINGYI.LI YUNXIAO,LI</a>.
@@ -65,10 +62,10 @@
 </section>
 </div>
 
-<!-- Scripts -->
+
 <script>
 	$(document).ready(function () {
-		//登录
+
 		$(".submit").click(function () {
 			var uid = $("#uid").val();
 			var content = $("#content").val();

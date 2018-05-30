@@ -1,6 +1,5 @@
-<!-- Contact -->
 <section id="contact">
-	<!-- Social -->
+
 	<div class="social column">
 		<h3>Disclaimer</h3>
 		<p>For the accuracy or completeness of the information and materials provided on this website, this
@@ -12,7 +11,7 @@
 		<a href="<?php echo $this->config->item("base_url"); ?>home/get_pdf"><input type="button" value="Download!"></a>
 	</div>
 
-	<!-- Form -->
+
 	<div class="column">
 		<h3>Get in Touch</h3>
 		<form action="#" method="post">
