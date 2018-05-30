@@ -19,7 +19,7 @@
 			    <input type="password" name="password" placeholder="Enter Password" id="password">
 			    <input type="submit" name="submit" value="login" class="submit">
 			    <a href="#">Forget Password</a><br>
-					<a href="<?php echo $this->config->item("base_url"); ?>usercontroller/index?status=regist"> Register Now</a></br>
+					<a href="<?php echo $this->config->item("base_url"); ?>action/index?status=regist"> Register Now</a></br>
 					<a href="<?php echo $this->config->item("base_url"); ?>home/home">Home Page</a>
 <!--			    </form>-->
 		</div>
@@ -30,7 +30,7 @@
 				var username = $("#username").val();
 				var password = $("#password").val();
 				$.ajax({
-					url: "/index.php/usercontroller/login",
+					url: "/index.php/action/login",
 					type: "post",
 					data:{"username":username,
 						"password":password

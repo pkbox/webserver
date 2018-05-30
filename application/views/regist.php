@@ -42,7 +42,7 @@
 			var repassword = $("#repassoword").val();
 			if (password == repassword) {
 				$.ajax({
-					url: "/index.php/usercontroller/register",
+					url: "/index.php/action/register",
 					type: "post",
 					data: {
 						"username": username,
@@ -57,7 +57,7 @@
 						if (data.status != 1) {
 							alert(data.message);
 						} else {
-							window.location.href = '/index.php/usercontroller/index';
+							window.location.href = '/index.php/action/index';
 						}
 					}
 				});

@@ -84,7 +84,7 @@
 
 					alert(data.message);
 					if(data.success == 4){
-						window.location.href="/index.php/usercontroller/index";
+						window.location.href="/index.php/action/index";
 					}
 				}
 			});

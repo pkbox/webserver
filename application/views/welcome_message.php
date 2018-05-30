@@ -4,7 +4,7 @@
 	<input type="file" name="file" size="45">
 	<input type="submit" value="Upload File">
 </form>
-<form action="usercontroller/login" method="post" enctype="multipart/form-data">
+<form action="action/login" method="post" enctype="multipart/form-data">
 	<input type="text" name="username" size="45">
 	<input type="text" name="password" >
 	<input type="text" name="email" >

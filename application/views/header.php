@@ -19,11 +19,11 @@
 
 	<nav id="nav">
 		<ul>
-			<li><a href="<?php echo $this->config->item("base_url"); ?>usercontroller/personal" class="">
+			<li><a href="<?php echo $this->config->item("base_url"); ?>action/personal" class="">
 					<?php $this->load->library('session');if(isset($_SESSION["user"]))echo $_SESSION["user"]["username"];?>
 				</a>
 			</li>
-			<li><a href="<?php echo $this->config->item("base_url"); ?>usercontroller/logout" class="">
+			<li><a href="<?php echo $this->config->item("base_url"); ?>action/logout" class="">
 					<?php $this->load->library('session');if(isset($_SESSION["user"]))echo "LOGOUT";?>
 				</a>
 			</li><br><br>
@@ -31,6 +31,6 @@
 			<li><a href="<?php echo $this->config->item("base_url"); ?>picture/gallery">GALLERY</a></li>
 			<li><a href="<?php echo $this->config->item("base_url"); ?>home/about_us">ABOUTUS</a></li>
 			<li><a href="<?php echo $this->config->item("base_url"); ?>upload/index"> UPLOAD</a></li>
-			<li><a href="<?php echo $this->config->item("base_url"); ?>usercontroller/index">LOGIN</a></li>
+			<li><a href="<?php echo $this->config->item("base_url"); ?>action/index">LOGIN</a></li>
 		</ul>
 	</nav>

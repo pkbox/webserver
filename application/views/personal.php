@@ -59,7 +59,7 @@
 			var uid = $(this).attr("uid");
 			var pid = $(this).attr("pid");
 			$.ajax({
-				url: "/index.php/usercontroller/delete",
+				url: "/index.php/action/delete",
 				type: "post",
 				data:{"uid":uid,
 					"pid":pid
@@ -71,7 +71,7 @@
 					if (data.success!=1) {
 						alert(data.message);
 					}else{
-						window.location.href='/index.php/usercontroller/personal';
+						window.location.href='/index.php/action/personal';
 					}
 				}
 			});
