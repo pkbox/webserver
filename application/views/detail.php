@@ -16,9 +16,9 @@
 			<h2><?php echo $list["name"] ?></h2>
 			<section class="content">
 				<div class="media">
-					<a href="<?php echo substr($list["url"], strpos($list["url"], '.') + 1); ?>">
+					<a href="/<?php echo $list["url"];?>">
 						<span class="image left special"><img
-								src="/<?php echo $l["url"];?>"/></a></span>
+								src="/<?php echo $list["url"];?>"/></a></span>
 
 				</div>
 
